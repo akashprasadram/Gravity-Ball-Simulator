@@ -13,7 +13,7 @@ var mouse={
 }
 
 var gravity=1;
-var fraction=0.59;
+var fraction=0.9;
 window.addEventListener('mousemove',function(event){
 	//console.log(event);
 	mouse.x=event.clientX;
